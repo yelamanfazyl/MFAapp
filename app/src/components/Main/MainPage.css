@@ -1,0 +1,61 @@
+.MainPage {
+    width: 97vw;
+    height: 97vh;
+}
+
+.Navbar {
+    text-align: right;
+    height: 10%;
+
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.NavbarButton {
+    margin: 10px;
+    width: 140px;
+    height: 40px;
+
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 600;
+
+    cursor: pointer;
+}
+
+.NavbarButton:hover {
+    transition: 0.3s ease;
+    background-color: rgb(130, 130, 130);
+}
+
+p {
+    color: white;
+}
+
+.FindLeakBody {
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.FindLeakButton {
+    border: 0px solid black;
+    border-radius: 15px;
+    background-color: rgb(42, 181, 49);
+
+    width: 300px;
+    height: 60px;
+
+    font-size: 30px;
+    font-weight: 700;
+
+    cursor: pointer;
+}
+
+.FindLeakButton:hover {
+    transition: 0.3s ease;
+    background-color: rgb(29, 115, 33);
+}
